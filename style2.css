@@ -1,0 +1,118 @@
+body{
+    background-color: #F3F5FC;
+}
+
+.main_pai{
+    display: flex;
+    gap: 80px;
+    padding: 0% 5%;
+}
+
+.header{
+    padding: 12px;
+}
+
+.filho01{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 80px 0px;
+    margin: 0 auto;
+    height: 70vh;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    height: 48px;
+    width: 680px;
+    font-size: 32px;
+    color: #0A3871;
+}
+
+.img_exclamacao{
+    display: flex;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    img{
+        width: 16px;
+        height: 16px;
+    }
+}
+
+.botoes{
+    display: flex;
+    gap: 24px;
+}
+
+#btCriptografar{
+    background-color: #0A3871;
+    border-radius: 24px;
+    color: white;
+    width: 328px;
+    height: 67px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#btDescriptografar{
+    background-color: #d8DFE8;
+    border-radius: 24px;
+    color: #0A3871;
+    width: 328px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.filho02{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    height: 944px;
+    background-color: white;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px #00000014;   
+}
+
+#msg_n_encontrada{
+    font-size: 24px;
+    font-weight: 700;
+    color: #343A40;
+}
+
+#digite_um_texto{
+    font-size: 18px;
+    font-weight: 400;
+    color: #495057;
+}
+
+#idCopiar{
+    background-color: white;
+    border-radius: 24px;
+    color: #0A3871;
+    width: 336px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh;
+    padding: 32px;
+    font-size: 22px;
+    align-items: center;
+}
+.none{
+    display: none;
+}
